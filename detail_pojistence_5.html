@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Pojišťovací aplikace">
+        <meta name="keywords" content="pojištění, pojištěnci, události">
+        <meta name="author" content="Jakub Chochola">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Pojištění</title>
+    </head>
+
+    <body>
+        <header>
+                <a href="index.html" class="logo">PojištěníApp</a>
+            <nav>
+                <ul>
+                    <li><a class="aktualni" href="pojistenci_1.html">Pojištěnci</a></li>
+                    <li><a href="pojisteni.html">Pojištění</a></li>
+                    <li><a href="udalosti.html">Události</a></li>
+                    <li><a href="oaplikaci.html">O aplikaci</a></li>
+                    <li><a class="prihlasit-tlacitko" href="prihlasit.html">Přihlásit</a></li>
+                    <li><a class= "registrovat-tlacitko" href="registrovat.html">Registrovat</a></li>
+                </ul>
+            </nav>
+
+        </header>
+        <article>
+            <div id="profil">
+                <img id="avatar" border="1" src="img/avatar.png" alt="Avatar">
+                <div id="udaje">
+                    <h1>Markéta Benešová</h1>
+                    <p>Hvězdná 353/12</p>
+                    <p>Brno</p>
+                    <p>602 00</p>
+                </div>
+                <div id="udaje_2">
+                    <p>market.benesova@gmail.com</p>
+                    <p>758 654 325</p>
+                </div>
+            </div>
+
+            <div id="centrovac" class="pojistenci-article">
+                        <h1>Sjednaná pojištění</h1>
+                <section>
+                    <table id="pojistenci">
+                        <thead>
+                            <th>Pojištění</th>
+                            <th>Částka</th>
+                            <th></th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><a class="jmeno" href="detail_1.html">Pojištění majetku</a></td>
+                                <td>5000000</td>
+                                <td><a class="odstranit-tlacitko" href="odstranit.html">Odstranit</a><a class="editovat-tlacitko" href="editovat.html">Editovat</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <ul>
+                        <li class ="tlacitka-pojisteni"><a class="pridat_pojisteni" href="pridat_pojisteni.html">Přidat pojištění</a></li>
+                        <li class ="tlacitka-pojisteni"><a class="editovat_pojistence" href="editovat_pojistence.html">Editovat pojištěnce</a></li>
+                        <li class ="tlacitka-pojisteni"><a class="odstranit_pojistence" href="odstranit_pojistence.html">Odstranit pojištěnce</a></li>
+                    </ul>
+                </section>
+            </div>
+        </article>
+    </body>
+</html>
