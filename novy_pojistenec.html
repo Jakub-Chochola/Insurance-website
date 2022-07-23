@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="cs-cz" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Pojišťovací aplikace">
+        <meta name="keywords" content="pojištění, pojištěnci, události">
+        <meta name="author" content="Jakub Chochola">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Pojišťovací aplikace</title>
+    </head>
+
+    <body>
+        <header>
+                <a href="index.html" class="logo">PojištěníApp</a>
+            <nav>
+                <ul>
+                    <li><a href="pojistenci_1.html">Pojištěnci</a></li>
+                    <li><a href="nove_pojisteni.html">Pojištění</a></li>
+                    <li><a href="index.html">Události</a></li>
+                    <li><a href="index.html">O aplikaci</a></li>
+                    <li><a class="admin-tlacitko" href="index.html">Admin</a></li>
+                    <li><a class= "registrovat-tlacitko" href="index.html">Registrovat</a></li>
+                </ul>
+            </nav>
+
+        </header>
+        <article>
+
+            <header>
+                <h1>Nový pojištěnec</h1>
+            </header>
+
+            <section>
+                <form method="get">
+
+                <div id="jmeno">
+                  <label for="jmeno">Jméno</label> <br>
+                  <input type="text" class="box" placeholder="Jan" required>
+                </div>
+
+                <div id="prijmeni">
+                  <label for="prijmeni">Příjmení</label> <br>
+                  <input type="text" class="box" placeholder="Novák" required>
+                </div>
+
+                <p></p>
+
+                <div id="email">
+                  <label for="email">Email</label> <br>
+                  <input type="email" class="box" placeholder="jannovak@seznam.cz">
+                </div>
+
+                <div id="telefon">
+                  <label for="telefon">Telefon</label> <br>
+                  <input type="tel" class="box" pattern="[0-9]{9}" placeholder="731 584 972" required>
+                </div>
+                <p></p>
+
+                <div id="ulice">
+                  <label for="ulice">Ulice a číslo popisné</label> <br>
+                  <input type="text" class="box" placeholder="Ve Svahu 3" required>
+                </div>
+                <p></p>
+
+                <div id="mesto">
+                  <label for="mesto">Město</label> <br>
+                  <input type="text" class="box" placeholder="Praha 1">
+                </div>
+                <p></p>
+
+                <div id="psc">
+                  <label for="psc">PSČ</label> <br>
+                  <input type="text" class="box" pattern="[0-9]{5}" placeholder="100 00">
+                </div>
+                <p></p>
+
+                  <input type="submit" id="ulozit" name="ulozit" value="Uložit">
+
+                </form>
+            </section>
+        </article>
+
+    </body>
+</html>

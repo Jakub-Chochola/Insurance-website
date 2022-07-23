@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="cs-cz" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Pojišťovací aplikace">
+        <meta name="keywords" content="pojištění, pojištěnci, události">
+        <meta name="author" content="Jakub Chochola">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Pojišťovací aplikace</title>
+    </head>
+
+    <body>
+        <header>
+                <a href="index.html" class="logo">PojištěníApp</a>
+            <nav>
+                <ul>
+                    <li><a href="pojistenci_1.html">Pojištěnci</a></li>
+                    <li><a href="nove_pojisteni.html">Pojištění</a></li>
+                    <li><a href="index.html">Události</a></li>
+                    <li><a href="index.html">O aplikaci</a></li>
+                    <li><a class="admin-tlacitko" href="index.html">Admin</a></li>
+                    <li><a class= "registrovat-tlacitko" href="index.html">Registrovat</a></li>
+                </ul>
+            </nav>
+
+        </header>
+        <article>
+
+            <header>
+                <h1>Přidat pojištění</h1>
+            </header>
+
+            <section>
+                <form method="get">
+
+                <div id="pojisteni">
+                    <label for="pojisteni">Pojištění</label> <br>
+                    <select class="pojisteni-box" name="pojisteni">
+                      <option value="pm">Pojištění majetku</option>
+                      <option value="zp">Životní pojištění</option>
+                    </select>
+                </div>
+
+                <div id="jmeno">
+                  <label for="castka">Částka</label> <br>
+                  <input type="number" class="box" placeholder="10000000" required>
+                </div>
+
+                <div id="prijmeni">
+                  <label for="predmet_pojisteni">Předmět pojištění</label> <br>
+                  <input type="text" class="box" placeholder="Byt" required>
+                </div>
+
+                <p></p>
+
+                <div id="email">
+                  <label for="platnost_od">Platnost od</label> <br>
+                  <input type="text" class="box" placeholder="1.1.2022">
+                </div>
+
+                <div id="telefon">
+                  <label for="platnost_do">Platnost do</label> <br>
+                  <input type="text" class="box" placeholder="31.12.2022" required>
+                </div>
+                <p></p>
+
+                  <input type="submit" id="ulozit" name="ulozit" value="Uložit">
+
+                </form>
+            </section>
+        </article>
+
+    </body>
+</html>
