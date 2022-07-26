@@ -18,7 +18,7 @@
                     <li><a href="nove_pojisteni.html">Pojištění</a></li>
                     <li><a href="index.html">Události</a></li>
                     <li><a href="index.html">O aplikaci</a></li>
-                    <li><a class="admin-tlacitko" href="novy_pojistenec.html">Admin</a></li>
+                    <li><a class="prihlasit-tlacitko" href="prihlaseni.html">Přihlásit</a></li>
                     <li><a class= "registrovat-tlacitko" href="registrace.html">Registrovat</a></li>
                 </ul>
             </nav>
@@ -27,7 +27,7 @@
         <article>
 
             <header>
-                <h1>Nový pojištěnec</h1>
+                <h1>Registrace</h1>
             </header>
 
             <section>
@@ -68,13 +68,19 @@
                 </div>
                 <p></p>
 
-                <div id="psc">
+                <div id="psc_2">
                   <label for="psc">PSČ</label> <br>
                   <input type="text" class="box" pattern="[0-9]{5}" placeholder="100 00">
                 </div>
                 <p></p>
 
-                  <input type="submit" id="ulozit" name="ulozit" value="Uložit">
+                <div id="heslo">
+                    <label for="pass">Heslo</label> <br>
+                    <input type="password" class="box">
+                </div>
+                <p></p>
+
+                  <input type="submit" id="ulozit" name="ulozit" value="Registrovat">
 
                 </form>
             </section>

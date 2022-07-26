@@ -431,6 +431,18 @@ article .neaktivni:hover {
     margin-left: 540px;
 }
 
+#psc_2 {
+    font-size: 1.3rem;
+	margin: 0px 15px 5px 0;
+    float: left;
+}
+
+#heslo {
+    font-size: 1.3rem;
+    margin: 0px 0 5px 0;
+    clear: right;
+}
+
 #pojisteni {
     font-size: 1.3rem;
     margin: 0px 0 20px 0;
@@ -462,4 +474,22 @@ select {
     border-radius: 10px;
     border: 1px solid lightgrey;
     padding-left: 20px;
+}
+
+.mraky {
+    height: 833px;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    font-size: 3.5rem;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
